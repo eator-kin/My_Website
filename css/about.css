@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: black;
+    padding: 20px 0;
+}
+
+nav div{
+    display: inline-block;
+    
+}
+
+
+/* logo */
+nav .logo a{
+    font-family: 'Potta One', cursive;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    margin-left: 50px;
+    margin-right: 160px;
+}
+
+
+/* navs */
+nav .navs a{
+    text-decoration: none;
+    color: #cdb2b2;
+    margin: 0 20px;
+    font-size: 140%;
+    font-family: 'Hachi Maru Pop', cursive;
+
+}
+
+
+/* sign-log */
+nav .sign-log a, nav .sign-log span{
+    text-decoration: none;
+    color: #ff0303;
+    font-size: 150%;
+    margin-left: 20px;
+    font-family: 'Noto Serif', serif;
+}
+nav .sign-log{
+    margin-left: 15%;
+}
+nav .sign-log span{
+    font-size: 200%;
+}
+
+
+
+/* Main */
+article .all{
+    display: inline;
+}
